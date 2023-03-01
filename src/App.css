@@ -5,6 +5,9 @@
 .headercontainer{
   width: 100%;
   background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .headercontainer h1{
@@ -23,13 +26,32 @@
 }
 
 .logocomponent{
-  display: inline;
+  display: flex;
+  float: left;
+  justify-content: center;
+  align-items: center;
 }
 
-.logocomponent h3{
+.logocomponent h4{
   display: inline;
 }
 
 #supportbtn{
-  display: inline;
+  display: flex;
+  right: 0;
+  margin-left: auto;
+}
+
+.userheaderimg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 0;
+  margin-left: 0;
+}
+
+#darklightbtn{
+  display: flex;
+  right: 0;
+  margin-left: 0;
 }
