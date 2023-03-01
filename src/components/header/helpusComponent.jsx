@@ -1,3 +1,5 @@
+import { Button } from '@chakra-ui/react';
+import { CheckIcon } from '@chakra-ui/icons'
 import React from 'react';
 
 const HelpusComponent = () => {
@@ -6,9 +8,9 @@ const HelpusComponent = () => {
 
     return (
         <a href={link} id='supportbtn'>
-            <button type="button">
+            <Button leftIcon={<CheckIcon />} colorScheme='teal' variant='solid' size='xs'>
                 Support Us!
-            </button>
+            </Button>
         </a>
     );
 }

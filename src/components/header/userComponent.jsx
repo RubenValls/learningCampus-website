@@ -1,9 +1,12 @@
+import { Avatar, AvatarBadge } from '@chakra-ui/react';
 import React from 'react';
 
 const UserComponent = () => {
     return (
         <div className='userheaderimg'>
-            <img src={`${process.env.PUBLIC_URL}/assets/images/user-img.png`} alt='user-img' width='45'></img>
+            <Avatar size='sm' name='User Name' src='https://www.svgrepo.com/show/313172/user.svg'>
+                <AvatarBadge boxSize='1.25em' bg='green.500' />
+            </Avatar>
             <span>UserName</span>
         </div>
     );
