@@ -3,7 +3,22 @@ import React from 'react';
 const NavbarComponent = () => {
     return (
         <div className='navbarcontainer'>
-            <h1>TEST NAVBAR</h1>
+            <a href='#'>
+                <img src='https://www.svgrepo.com/show/485567/home-2.svg' alt='homeicon' width='35'/>
+                <span>Home</span>
+            </a>
+            <a href='#'>
+                <img src='https://www.svgrepo.com/show/485559/edit.svg' alt='worksicon' width='35'/>
+                <span>Works</span>
+            </a>
+            <a href='#'>
+                <img src='https://www.svgrepo.com/show/485570/layer.svg' alt='coursesicon' width='35'/>
+                <span>Courses</span>
+            </a>
+            <a href='#'>
+                <img src='https://www.svgrepo.com/show/485566/file.svg' alt='newsicon' width='35'/>
+                <span>News</span>
+            </a>
         </div>
     );
 }
