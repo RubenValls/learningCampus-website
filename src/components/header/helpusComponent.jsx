@@ -8,7 +8,7 @@ const HelpusComponent = () => {
 
     return (
         <a href={link} id='supportbtn'>
-            <Button leftIcon={<CheckIcon />} colorScheme='teal' variant='solid' size='xs'>
+            <Button leftIcon={<CheckIcon />} colorScheme='teal' variant='solid' size='sm'>
                 Support Us!
             </Button>
         </a>

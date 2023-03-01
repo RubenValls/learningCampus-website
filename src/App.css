@@ -57,10 +57,7 @@ a{
   float: left;
   justify-content: center;
   align-items: center;
-}
-
-.logocomponent h4{
-  display: inline;
+  padding: 0.5em;
 }
 
 #supportbtn{
@@ -83,4 +80,12 @@ a{
   display: flex;
   right: 0;
   margin-left: 0;
+}
+
+.mainpage-container{
+  background-color:whitesmoke;
+}
+
+#greeting-message{
+  padding-top: 1em;
 }
