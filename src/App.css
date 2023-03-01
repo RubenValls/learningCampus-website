@@ -21,3 +21,15 @@
   margin: 0;
   padding: 0.1em;
 }
+
+.logocomponent{
+  display: inline;
+}
+
+.logocomponent h3{
+  display: inline;
+}
+
+#supportbtn{
+  display: inline;
+}
