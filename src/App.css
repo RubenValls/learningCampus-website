@@ -65,10 +65,8 @@ a{
   padding-right: 1.25em;
 }
 
-#darklightbtn{
-  display: flex;
-  right: 0;
-  margin-left: 0;
+#avatar{
+  z-index: 1;
 }
 
 .mainpage-container{
