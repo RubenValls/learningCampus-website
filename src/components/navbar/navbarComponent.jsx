@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Center, useDisclosure} from '@chakra-ui/react'
+import { Divider, Center, useDisclosure, Box} from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
 import { Button } from '@chakra-ui/react'
 import {
@@ -19,7 +19,7 @@ const NavbarComponent = () => {
     const btnRef = React.useRef()
 
     return (
-        <div className='navbarcontainer'> 
+        <Box className='navbarcontainer'> 
                 <Button colorScheme='gray' variant='ghost' className='navbtn'>
                     <img src='https://cdn-icons-png.flaticon.com/512/1946/1946488.png' alt='homeicon' width='25'/>
                     <Text fontSize='md' className='navtext'>Home</Text>
@@ -65,7 +65,7 @@ const NavbarComponent = () => {
                     </DrawerFooter>
                     </DrawerContent>
                 </Drawer>
-        </div>
+        </Box>
     );
 }
 

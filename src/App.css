@@ -25,12 +25,12 @@ a{
 
 .navbarcontainer{
   width: 100%;
-  background-color: rgba(49, 151, 149, 0.75);
+  background-color: rgb(100,175,175);
   display: flex;
   justify-content:space-evenly;
   align-items: center;
   position: sticky;
-  z-index: 2;
+  z-index: 1;
   top:0;
   padding: 0.25em;
 }
@@ -69,10 +69,10 @@ a{
   padding-right: 1.25em;
 }
 
-#avatar{
-  z-index: 1;
+#menulist{
+  position: absolute;
+  z-index: 2;
 }
-
 
 #greeting-message{
   padding-top: 1em;

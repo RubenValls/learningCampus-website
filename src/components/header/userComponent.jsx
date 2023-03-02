@@ -1,4 +1,4 @@
-import { Avatar, AvatarBadge, useColorMode } from '@chakra-ui/react';
+import { Avatar, AvatarBadge, Box, useColorMode } from '@chakra-ui/react';
 import React from 'react';
 import {
     Menu,
@@ -15,7 +15,7 @@ const UserComponent = () => {
     const { colorMode, toggleColorMode } = useColorMode();
 
     return (
-        <div className='userheaderimg'>
+        <Box className='userheaderimg' id='menulist'>
             <Menu>
                 <MenuButton as={Button} variant='transparent' size='sm' rightIcon={<ChevronDownIcon />}>
                     <Avatar size='sm' name={username} bg='teal.500' src='' id='avatar'>
@@ -33,7 +33,7 @@ const UserComponent = () => {
                     <MenuItem>Log Out</MenuItem>
                 </MenuList>
             </Menu>
-        </div>
+        </Box>
     );
 }
 

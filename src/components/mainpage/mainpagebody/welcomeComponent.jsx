@@ -4,7 +4,7 @@ import React from 'react';
 
 const WelcomeComponent = () => {
     return (
-        <SimpleGrid minChildWidth='300px' spacing='0.5em' pt='1em' m='1em'>
+        <SimpleGrid minChildWidth='300px' spacing='0.5em' pt='1em' m='1em' id='welcomegrid'>
             <Box height='30em'>
                 <Center h='100%'>
                     <Card align='center' h='100%'>
@@ -16,7 +16,7 @@ const WelcomeComponent = () => {
                         <Text>Want to know more about us? Click the link below</Text>
                     </CardBody>
                     <CardFooter>
-                        <Link href='https://www.youtube.com/watch?v=2uGDCCFmjas&t=474s' isExternal>
+                        <Link href='https://www.youtube.com/watch?v=2uGDCCFmjas&t=474s' textDecoration={"none"}>
                             <Button colorScheme='teal' variant='outline'>View here</Button>
                         </Link>
                     </CardFooter>
