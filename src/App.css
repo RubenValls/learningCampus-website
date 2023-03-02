@@ -80,3 +80,13 @@ a{
 .navtext{
   padding: 0.5em;
 }
+
+#discordlogo:hover{
+  transform: scale(1.2);
+  transition: 3s;
+}
+
+#discordlogo:not(:hover){
+  transform: scale(1);
+  transition: 3s;
+}
