@@ -4,8 +4,8 @@ import React from 'react';
 
 const WelcomeComponent = () => {
     return (
-        <SimpleGrid minChildWidth='400px' spacing='0.5em' pt='1em' m='1em'>
-            <Box height='25em'>
+        <SimpleGrid minChildWidth='300px' spacing='0.5em' pt='1em' m='1em'>
+            <Box height='30em'>
                 <Center h='100%'>
                     <Card align='center' h='100%'>
                     <Image src='https://vlctesting.es/wp-content/uploads/2022/08/Open-Bootcamp.png' boxSize='150px'></Image>
@@ -23,7 +23,7 @@ const WelcomeComponent = () => {
                     </Card>
                 </Center>
             </Box>
-            <Box height='25em'>
+            <Box height='30em'>
                 <Center h='100%'>
                     <Card align='center' h='100%' w='100%' backgroundColor='#64B1AF'>
                     <CardHeader w='100%'>
