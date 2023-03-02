@@ -1,5 +1,5 @@
 import React from 'react';
-import { Divider, Center, useDisclosure, useColorModeValue, Container, Flex } from '@chakra-ui/react'
+import { Divider, Center, useDisclosure} from '@chakra-ui/react'
 import { Text } from '@chakra-ui/react'
 import { Button } from '@chakra-ui/react'
 import {

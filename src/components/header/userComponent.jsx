@@ -7,7 +7,7 @@ import {
     MenuItem,
     Button
 } from '@chakra-ui/react'
-import { ChevronDownIcon } from '@chakra-ui/icons';
+import { ChevronDownIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 
 const UserComponent = () => {
     
@@ -24,10 +24,11 @@ const UserComponent = () => {
                 </MenuButton>
                 <MenuList>
                     <MenuItem>Profile</MenuItem>
-                    <MenuItem>
-                        <Button onClick={toggleColorMode}>
-                            Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
-                        </Button>
+                    <MenuItem onClick={toggleColorMode}>
+                        Change to: {colorMode === 'light' 
+                                        ? <MoonIcon m='0.5em'/> 
+                                        : <SunIcon m='0.5em'/>
+                                    }
                     </MenuItem>
                     <MenuItem>Log Out</MenuItem>
                 </MenuList>
