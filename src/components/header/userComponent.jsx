@@ -1,4 +1,4 @@
-import { Avatar, AvatarBadge } from '@chakra-ui/react';
+import { Avatar, AvatarBadge, useColorMode } from '@chakra-ui/react';
 import React from 'react';
 import {
     Menu,
@@ -12,6 +12,7 @@ import { ChevronDownIcon } from '@chakra-ui/icons';
 const UserComponent = () => {
     
     const username = 'Rubén Valls';
+    const { colorMode, toggleColorMode } = useColorMode();
 
     return (
         <div className='userheaderimg'>
@@ -23,7 +24,11 @@ const UserComponent = () => {
                 </MenuButton>
                 <MenuList>
                     <MenuItem>Profile</MenuItem>
-                    <MenuItem>D/L Mode</MenuItem>
+                    <MenuItem>
+                        <Button onClick={toggleColorMode}>
+                            Toggle {colorMode === 'light' ? 'Dark' : 'Light'}
+                        </Button>
+                    </MenuItem>
                     <MenuItem>Log Out</MenuItem>
                 </MenuList>
             </Menu>
