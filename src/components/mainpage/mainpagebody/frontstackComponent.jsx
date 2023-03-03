@@ -3,9 +3,9 @@ import React from 'react';
 
 const FrontstackComponent = () => {
     return (
-        <Box mt='1em'>
+        <Box mt='1em' maxW='100%'>
             <Heading>Front-End Routes and Stack</Heading>
-            <SimpleGrid minChildWidth='250px' spacing='40px' p='1em'>
+            <SimpleGrid minChildWidth='150px' spacing='0.25em' p='1em'>
                 <Box bg='teal' height='100%'>
                     <VStack alignContent='center' p='1em'>
                         <Card maxW='sm' p='1em'>
