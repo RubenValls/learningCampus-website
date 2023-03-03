@@ -90,3 +90,13 @@ a{
   transform: scale(1);
   transition: 3s;
 }
+
+.phasestagecard:hover{
+  cursor: pointer;
+  background-color: rgb(100,175,175);
+  transition: 2s;
+}
+
+.phasestagecard:not(:hover){
+  transition: 2s;
+}

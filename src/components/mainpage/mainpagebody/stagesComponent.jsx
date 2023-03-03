@@ -18,7 +18,7 @@ const StagesComponent = () => {
             </Box>
             <Box height='13em'>
                 <Center h='100%'>
-                    <Card w='100%' height='12em'>
+                    <Card w='100%' height='12em' className='phasestagecard'>
                         <CardBody h='100%' mt='0em'>
                             <Text fontSize='xl' mt='0.1em' mb='0.5em'>
                                 <Badge variant='subtle' colorScheme='green' fontSize='1.5em' mr='0.25em' mb='0.25em'>#1</Badge>
@@ -34,21 +34,22 @@ const StagesComponent = () => {
             </Box>
             <Box height='13em'>
                 <Center h='100%'>
-                    <Card w='100%' height='12em'>
+                    <Card w='100%' height='12em' className='phasestagecard'>
                         <CardBody h='100%' mt='0em'>
                             <Text fontSize='xl' mt='0.1em' mb='0.5em'>
-                                <Badge variant='subtle' colorScheme='green' fontSize='1.5em'>#2</Badge>
+                                <Badge variant='subtle' colorScheme='green' fontSize='1.5em' mr='0.25em' mb='0.25em'>#2</Badge>
+                                <Text as='b'>ACCELERATION</Text> PHASE
                             </Text>
                             <Divider/>
                             <List spacing={3}>
                                 <ListItem>
-                                    <ListIcon as={CheckCircleIcon} color='green.500' />1
+                                    <ListIcon as={CheckCircleIcon} color='green.500' />Finish a course
                                 </ListItem>
                                 <ListItem>
-                                    <ListIcon as={CheckCircleIcon} color='green.500' />2
+                                    <ListIcon as={CheckCircleIcon} color='green.500' />Complete your profile
                                 </ListItem>
                                 <ListItem>
-                                    <ListIcon as={CheckCircleIcon} color='green.500' />3
+                                    <ListIcon as={CheckCircleIcon} color='green.500' />Join a boost
                                 </ListItem>
                             </List>
                         </CardBody>
@@ -57,23 +58,16 @@ const StagesComponent = () => {
             </Box>
             <Box height='13em'>
                 <Center h='100%'>
-                    <Card w='100%' height='12em'>
+                    <Card w='100%' height='12em' className='phasestagecard'>
                         <CardBody h='100%' mt='0em'>
                             <Text fontSize='xl' mt='0.1em' mb='0.5em'>
-                                <Badge variant='subtle' colorScheme='green' fontSize='1.5em'>#3</Badge>
+                                <Badge variant='subtle' colorScheme='green' fontSize='1.5em' mr='0.25em' mb='0.25em'>#3</Badge>
+                                <Text as='b'>LABORAL</Text> PHASE
                             </Text>
                             <Divider/>
-                            <List spacing={3}>
-                                <ListItem>
-                                    <ListIcon as={CheckCircleIcon} color='green.500' />1
-                                </ListItem>
-                                <ListItem>
-                                    <ListIcon as={CheckCircleIcon} color='green.500' />2
-                                </ListItem>
-                                <ListItem>
-                                    <ListIcon as={CheckCircleIcon} color='green.500' />3
-                                </ListItem>
-                            </List>
+                            <Text mt='1.25em'>
+                                To access to Laboral Phase you have to complete the previous stages. Here we will prepare you to job interviews. 
+                            </Text>
                         </CardBody>
                     </Card>
                 </Center>
