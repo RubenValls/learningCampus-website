@@ -1,5 +1,5 @@
 import { CheckCircleIcon } from '@chakra-ui/icons';
-import { Box, Card, CardBody, Heading, Text, SimpleGrid, Center, CardHeader, Divider, Badge, List, ListItem, ListIcon } from '@chakra-ui/react';
+import { Box, Card, CardBody, Heading, Text, SimpleGrid, Center, Divider, Badge, List, ListItem, ListIcon } from '@chakra-ui/react';
 import React from 'react';
 
 const StagesComponent = () => {
