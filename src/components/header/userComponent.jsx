@@ -8,6 +8,7 @@ import {
     Button
 } from '@chakra-ui/react'
 import { ChevronDownIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
+import { Link } from 'react-router-dom';
 
 const UserComponent = () => {
     
@@ -30,7 +31,9 @@ const UserComponent = () => {
                                         : <SunIcon m='0.5em'/>
                                     }
                     </MenuItem>
-                    <MenuItem>Log Out</MenuItem>
+                    <MenuItem>
+                        <Link to='/learningCampus-website'>Log Out</Link>
+                    </MenuItem>
                 </MenuList>
             </Menu>
         </Box>
