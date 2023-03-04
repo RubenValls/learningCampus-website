@@ -6,7 +6,7 @@ const LoginComponent = () => {
     return (
         <Box>
             <Heading>THIS IS LOGIN PAGE</Heading>
-            <Link to='/campus'>
+            <Link to='/learningCampus-website/campus'>
                 <Button>Click Here to campus</Button>
             </Link>
         </Box>
