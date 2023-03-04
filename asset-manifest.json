@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/learningCampus-website/static/css/main.f580218b.css",
-    "main.js": "/learningCampus-website/static/js/main.c17c4aa4.js",
+    "main.js": "/learningCampus-website/static/js/main.30e3e44b.js",
     "static/js/787.ad88c152.chunk.js": "/learningCampus-website/static/js/787.ad88c152.chunk.js",
     "index.html": "/learningCampus-website/index.html",
     "main.f580218b.css.map": "/learningCampus-website/static/css/main.f580218b.css.map",
-    "main.c17c4aa4.js.map": "/learningCampus-website/static/js/main.c17c4aa4.js.map",
+    "main.30e3e44b.js.map": "/learningCampus-website/static/js/main.30e3e44b.js.map",
     "787.ad88c152.chunk.js.map": "/learningCampus-website/static/js/787.ad88c152.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f580218b.css",
-    "static/js/main.c17c4aa4.js"
+    "static/js/main.30e3e44b.js"
   ]
 }
