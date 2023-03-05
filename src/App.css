@@ -100,3 +100,13 @@ a{
 .phasestagecard:not(:hover){
   transition: 2s;
 }
+
+#loginbox:hover{
+  cursor: pointer;
+  background-color: rgba(100, 175, 175, 0.25);
+  transition: 5s;
+}
+
+#loginbox:not(:hover){
+  transition: 5s;
+}
