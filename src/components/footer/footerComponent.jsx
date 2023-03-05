@@ -1,4 +1,4 @@
-import { Box, Center, Text, Divider, Image, Link } from '@chakra-ui/react';
+import { Box, Center, Text, Divider, Image, Link, Button } from '@chakra-ui/react';
 import React from 'react';
 
 const FooterComponent = () => {
@@ -17,7 +17,16 @@ const FooterComponent = () => {
                 <Text fontSize='md' as='b' p='0.5em'>
                     Made by: 
                 </Text>
-                <Image src='https://i.ibb.co/VWxLJbq/valls-Sign.png' boxSize='30px' alt='author-sign'/>
+                <Link href='https://www.linkedin.com/in/rubenvallsaparici/' isExternal pr='0.25em'>
+                    <Button colorScheme='teal' variant='outline' size='xs' p='0'>
+                        <Image src='https://www.pngmart.com/files/21/Linkedin-In-Logo-PNG-HD.png' w='2em'></Image>
+                    </Button>
+                </Link>
+                <Link href='https://github.com/RubenValls' isExternal>
+                    <Button colorScheme='teal' variant='outline' size='xs' p='0'>
+                        <Image src='https://cdn-icons-png.flaticon.com/512/25/25231.png' w='1.85em' p='0.1em'></Image>
+                    </Button>
+                </Link>
             </Center>
         </Box>
     );
