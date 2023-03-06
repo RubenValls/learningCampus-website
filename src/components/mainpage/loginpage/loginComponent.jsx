@@ -10,7 +10,7 @@ const LoginComponent = () => {
                 <Image src='https://vlctesting.es/wp-content/uploads/2022/08/Open-Bootcamp.png' w='20em' m='auto'></Image>
                 <Heading as='h2'>Write your Username</Heading>
                 <Input variant='flushed' placeholder='Username' pt='1em' id='userinput'/>
-                <Link to='/learningCampus-website/campus'>
+                <Link to='/learningCampus-website/campus/welcome'>
                     <Button mt='1em' colorScheme='teal' variant='solid'>Log In</Button>
                 </Link>
             </Box>
