@@ -4,6 +4,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Workcardsfront from './workcardsfront';
 import Workcardsback from './workcardsback';
 import Workcardsfull from './workcardsfull';
+import AllworksComponent from './allworksComponent';
 
 const WorksComponent = () => {
     return (
@@ -35,6 +36,7 @@ const WorksComponent = () => {
             <Square bg='light' w='75vw' p='1em'>
                 <Center h='100%'>
                     <Routes>
+                        <Route path='/' element={<AllworksComponent/>}></Route>
                         <Route path='frontend' element={<Workcardsfront/>}></Route>
                         <Route path='backend' element={<Workcardsback/>}></Route>
                         <Route path='fullstack' element={<Workcardsfull/>}></Route>

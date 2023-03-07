@@ -4,6 +4,7 @@ import { Link, Route, Routes } from 'react-router-dom';
 import Coursescardsfull from './coursescardsfull';
 import Coursescardsback from './coursescardsback';
 import Coursescardsfront from './coursescardsfront';
+import AllcoursesComponent from './allcoursesComponent';
 
 const CoursesComponent = () => {
     return (
@@ -35,6 +36,7 @@ const CoursesComponent = () => {
             <Square bg='light' w='75vw' p='1em'>
                 <Center h='100%'>
                     <Routes>
+                        <Route path='/' element={<AllcoursesComponent/>}></Route>
                         <Route path='frontend' element={<Coursescardsfront/>}></Route>
                         <Route path='backend' element={<Coursescardsback/>}></Route>
                         <Route path='fullstack' element={<Coursescardsfull/>}></Route>
