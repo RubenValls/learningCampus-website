@@ -30,6 +30,12 @@ const CoursesComponent = () => {
                                 <Text fontSize='lg'>Full Stack</Text>
                             </Box>
                         </Link>
+                        <Link to='/learningCampus-website/campus/courses/'>
+                            <Box w='100%' m='auto' pt='1em' className='worksnav'>
+                                <Image src='https://cdn-icons-png.flaticon.com/512/9903/9903818.png' alt='see all icon' w='6.5em' m='auto'/>
+                                <Text fontSize='lg'>See All</Text>
+                            </Box>
+                        </Link>
                     </VStack>
                 </Center>
             </Square>
