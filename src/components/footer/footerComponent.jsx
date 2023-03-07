@@ -3,7 +3,7 @@ import React from 'react';
 
 const FooterComponent = () => {
     return (
-        <Box w='100%' bg='WhiteAlpha' borderTopWidth='1px'>
+        <Box w='100%' borderTopWidth='1px' id='footer'>
             <Center>
                 <Image src='https://programacion-es.dev/img/openbootcamp-icon.webp' boxSize='35px' alt='openbootcamp-footer-logo'/>
                 <Link href='https://campus.open-bootcamp.com/'>
