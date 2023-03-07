@@ -34,8 +34,8 @@ const Coursescardsfront = () => {
                 <Card maxW='xl' h='450px'>
                     <CardBody>
                         <Image
-                        src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg'
-                        alt='Mongodb-icon course'
+                        src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg'
+                        alt='Tailwind-icon course'
                         borderRadius='lg'
                         />
                         <Heading>Tailwind CSS From Scratch</Heading>
