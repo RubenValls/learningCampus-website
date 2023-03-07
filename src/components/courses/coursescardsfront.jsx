@@ -3,17 +3,56 @@ import React from 'react';
 
 const Coursescardsfront = () => {
     return (
-        <SimpleGrid minChildWidth='120px' spacing='40px'>
+        <SimpleGrid minChildWidth='200px' spacing='10px' w='100%'>
             <Box height='auto'>
-                <Card maxW='sm'>
+                <Card maxW='xl' h='450px'>
                     <CardBody>
                         <Image
-                        src='https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80'
-                        alt='Green double couch with wooden legs'
+                        src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'
+                        alt='ReactJS-icon course'
                         borderRadius='lg'
                         />
-                        <Heading>FRONT</Heading>
-                        <Text>DESCRIPTION</Text>
+                        <Heading>ReactJS - Expert Guide</Heading>
+                        <Text>Dive in and learn React.js, Hooks, Redux & React Routing</Text>
+                    </CardBody>
+                </Card>
+            </Box>
+            <Box height='auto'>
+                <Card maxW='xl' h='450px'>
+                    <CardBody>
+                        <Image
+                        src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg'
+                        alt='sass-icon course'
+                        borderRadius='lg'
+                        />
+                        <Heading>The Complete SASS</Heading>
+                        <Text>Learn SASS, the most popular CSS Extension. Build modern and beautiful projects using SASS.</Text>
+                    </CardBody>
+                </Card>
+            </Box>
+            <Box height='auto'>
+                <Card maxW='xl' h='450px'>
+                    <CardBody>
+                        <Image
+                        src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg'
+                        alt='Mongodb-icon course'
+                        borderRadius='lg'
+                        />
+                        <Heading>Tailwind CSS From Scratch</Heading>
+                        <Text>Build great looking layouts fast and efficiently using Tailwind CSS utility classes.</Text>
+                    </CardBody>
+                </Card>
+            </Box>
+            <Box height='auto'>
+                <Card maxW='xl' h='450px'>
+                    <CardBody>
+                        <Image
+                        src='https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original-wordmark.svg'
+                        alt='VueJS-icon course'
+                        borderRadius='lg'
+                        />
+                        <Heading>The Complete Guide</Heading>
+                        <Text>Learn VueJS and build a complete project using Vue.</Text>
                     </CardBody>
                 </Card>
             </Box>
