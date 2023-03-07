@@ -38,12 +38,10 @@ const WorksComponent = () => {
                         <Route path='frontend' element={<Workcardsfront/>}></Route>
                         <Route path='backend' element={<Workcardsback/>}></Route>
                         <Route path='fullstack' element={<Workcardsfull/>}></Route>
-                        <Route></Route>
                     </Routes>
                 </Center>
             </Square>
         </Flex>
-        
     );
 }
 
