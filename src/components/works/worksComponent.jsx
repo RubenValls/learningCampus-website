@@ -12,21 +12,21 @@ const WorksComponent = () => {
                 <Center h='100%'>
                     <VStack p='1em'>
                         <Link to='/learningCampus-website/campus/works/frontend'>
-                            <Box w='90%' m='auto' className='worksnav'>
+                            <Box w='100%' m='auto' className='worksnav'>
                                 <Image src='https://cdn-icons-png.flaticon.com/512/9172/9172978.png' alt='Front-end icon' w='7.5em' m='auto'/>
-                                <Text fontSize='xl'>Front End</Text>
+                                <Text fontSize='lg'>Front End</Text>
                             </Box>
                         </Link>
                         <Link to='/learningCampus-website/campus/works/backend'>
-                            <Box w='90%' m='auto' pt='1em' className='worksnav'>
+                            <Box w='100%' m='auto' pt='1em' className='worksnav'>
                                 <Image src='https://cdn-icons-png.flaticon.com/512/8099/8099237.png' alt='Back-end icon' w='7.5em' m='auto'/>
-                                <Text fontSize='xl'>Back End</Text>
+                                <Text fontSize='lg'>Back End</Text>
                             </Box>
                         </Link>
                         <Link to='/learningCampus-website/campus/works/fullstack'>
-                            <Box w='90%' m='auto' pt='1em' className='worksnav'>
+                            <Box w='100%' m='auto' pt='1em' className='worksnav'>
                                 <Image src='https://cdn-icons-png.flaticon.com/512/5432/5432927.png' alt='Full Stack icon' w='7.5em' m='auto'/>
-                                <Text fontSize='xl'>Full Stack</Text>
+                                <Text fontSize='lg'>Full Stack</Text>
                             </Box>
                         </Link>
                     </VStack>
