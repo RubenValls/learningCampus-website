@@ -15,7 +15,7 @@ const MainpageComponent = () => {
             <Routes>
                 <Route path='welcome' element={<MainpagebodyComponent/>}></Route>
                 <Route path='works/*' element={<WorksComponent/>}></Route>
-                <Route path='courses' element={<CoursesComponent/>}></Route>
+                <Route path='courses/*' element={<CoursesComponent/>}></Route>
             </Routes>
             <FooterComponent/>
         </div>
