@@ -1,6 +1,5 @@
 import React from 'react';
-import { Divider, Center, useDisclosure, Box} from '@chakra-ui/react'
-import { Text } from '@chakra-ui/react'
+import { Divider, Center, useDisclosure, Box, Text, VStack} from '@chakra-ui/react'
 import { Button } from '@chakra-ui/react'
 import {
     Drawer,
@@ -61,10 +60,36 @@ const NavbarComponent = () => {
                     <DrawerOverlay />
                     <DrawerContent>
                     <DrawerCloseButton />
-                    <DrawerHeader>More info: </DrawerHeader>
+                    <DrawerHeader>
+                        <Text fontSize='3xl'>More info: </Text>
+                    </DrawerHeader>
 
                     <DrawerBody>
-                        <h1>WILL BE THINGS HERE</h1>
+                        <Text fontSize='lg'>Works by role:</Text>
+                        <VStack>
+                            <Link to='/learningCampus-website/campus/works/frontend'>
+                                <Text fontSize='md'>Front End Jobs</Text>
+                            </Link>
+                            <Link to='/learningCampus-website/campus/works/backend'>
+                                <Text fontSize='md'>Back End Jobs</Text>
+                            </Link>
+                            <Link to='/learningCampus-website/campus/works/fullstack'>
+                                <Text fontSize='md'>Full Stack Jobs</Text>
+                            </Link>
+                        </VStack>                        
+                        <Divider mt='1em'></Divider>
+                        <Text fontSize='lg' mt='1em'>Courses by role:</Text>
+                        <VStack>
+                            <Link to='/learningCampus-website/campus/courses/frontend'>
+                                <Text fontSize='md'>Front End Courses</Text>
+                            </Link>
+                            <Link to='/learningCampus-website/campus/courses/backend'>
+                                <Text fontSize='md'>Back End Courses</Text>
+                            </Link>
+                            <Link to='/learningCampus-website/campus/courses/fullstack'>
+                                <Text fontSize='md'>Full Stack Courses</Text>
+                            </Link>
+                        </VStack>
                     </DrawerBody>
 
                     <DrawerFooter>
