@@ -3,11 +3,12 @@ import { Center, Card, Image, Stack, CardBody, Heading, Text, CardFooter, Button
 
 const Workcardsback = () => {
     return (
-        <VStack>
+        <VStack m='auto'>
             <Card
                 direction={{ base: 'column', sm: 'row' }}
                 overflow='hidden'
                 variant='outline'
+                m='auto'
                 >
                 <Image
                 objectFit='cover'

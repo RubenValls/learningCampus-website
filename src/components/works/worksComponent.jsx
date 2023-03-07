@@ -8,7 +8,7 @@ import Workcardsfull from './workcardsfull';
 const WorksComponent = () => {
     return (
         <Flex>
-            <Square w='20vw' borderRight='1px solid teal'>
+            <Square w='25vw' borderRight='1px solid teal'>
                 <Center h='100%'>
                     <VStack p='1em'>
                         <Link to='/learningCampus-website/campus/works/frontend'>
