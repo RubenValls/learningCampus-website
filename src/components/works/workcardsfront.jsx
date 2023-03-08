@@ -110,7 +110,7 @@ const Workcardsfront = () => {
                     </CardBody>
                     <CardFooter pt='0' mt='0'>
                         <Center w='100%'>
-                            <Link href='https://jobrun.dev/empresas/barrabes/frontend-developer-react-72' isExternal>
+                            <Link href='https://jobrun.dev/empresas/proxya/desarrolladora-net-87' isExternal>
                                 <Button variant='solid' colorScheme='blue'>
                                     See Offer
                                 </Button>
