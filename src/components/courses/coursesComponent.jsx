@@ -39,7 +39,7 @@ const CoursesComponent = () => {
                     </VStack>
                 </Center>
             </Square>
-            <Square bg='light' w='75vw' p='1em'>
+            <Square bg='light' w='70vw'>
                 <Center h='100%'>
                     <Routes>
                         <Route path='/' element={<AllcoursesComponent/>}></Route>
