@@ -7,18 +7,18 @@ const StagesComponent = () => {
         <Box w='100%' pt='1em'>
             <Heading>OpenBootcamp's stages to be Front-End Developer</Heading>
             <SimpleGrid minChildWidth='350px' spacing='0.5em' m='1em' id='welcomegrid'>
-            <Box height='14em'>
+            <Box height='15em'>
                 <Center h='100%'>
-                    <Card height='13em'>
+                    <Card height='14em'>
                         <CardBody h='100%'>
                             <Text fontSize='md' mt='0.5em'>Open Bootcamp was born to reinvent specialized training. Our mission is that you can have access to the highest quality technological training at no cost. With our training, you will be able to access jobs that suit your needs. Depending on the moment you are in, you can choose between our two phases:</Text>
                         </CardBody>
                     </Card>
                 </Center>
             </Box>
-            <Box height='14em'>
+            <Box height='15em'>
                 <Center h='100%'>
-                    <Card w='100%' height='13em' className='phasestagecard'>
+                    <Card w='100%' height='14em' className='phasestagecard'>
                         <CardBody h='100%' mt='0em'>
                             <Text fontSize='xl' mt='0.1em' mb='0.5em'>
                                 <Badge variant='subtle' colorScheme='green' fontSize='1.5em' mr='0.25em' mb='0.25em'>#1</Badge>
@@ -32,9 +32,9 @@ const StagesComponent = () => {
                     </Card>
                 </Center>
             </Box>
-            <Box height='14em'>
+            <Box height='15em'>
                 <Center h='100%'>
-                    <Card w='100%' height='13em' className='phasestagecard'>
+                    <Card w='100%' height='14em' className='phasestagecard'>
                         <CardBody h='100%' mt='0em'>
                             <Text fontSize='xl' mt='0.1em' mb='0.5em'>
                                 <Badge variant='subtle' colorScheme='green' fontSize='1.5em' mr='0.25em' mb='0.25em'>#2</Badge>
@@ -56,9 +56,9 @@ const StagesComponent = () => {
                     </Card>
                 </Center>
             </Box>
-            <Box height='14em'>
+            <Box height='15em'>
                 <Center h='100%'>
-                    <Card w='100%' height='13em' className='phasestagecard'>
+                    <Card w='100%' height='14em' className='phasestagecard'>
                         <CardBody h='100%' mt='0em'>
                             <Text fontSize='xl' mt='0.1em' mb='0.5em'>
                                 <Badge variant='subtle' colorScheme='green' fontSize='1.5em' mr='0.25em' mb='0.25em'>#3</Badge>
