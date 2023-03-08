@@ -1,4 +1,4 @@
-import { Avatar, AvatarBadge, Box, useColorMode } from '@chakra-ui/react';
+import { Avatar, AvatarBadge, Box, useColorMode, Text, Divider } from '@chakra-ui/react';
 import React from 'react';
 import {
     Menu,
@@ -9,10 +9,11 @@ import {
 } from '@chakra-ui/react'
 import { ChevronDownIcon, MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { Link } from 'react-router-dom';
+import { USERNAME } from '../../classes/student';
 
 const UserComponent = () => {
     
-    const username = 'Rubén Valls';
+    const username = USERNAME.getUsername;
     const { colorMode, toggleColorMode } = useColorMode();
 
     return (
@@ -24,6 +25,10 @@ const UserComponent = () => {
                     </Avatar>
                 </MenuButton>
                 <MenuList>
+                    <MenuItem>
+                        <Text fontSize='xl' as='b'>{username} :</Text>
+                    </MenuItem>
+                    <Divider/>
                     <MenuItem>Profile</MenuItem>
                     <MenuItem onClick={toggleColorMode}>
                         Change to: {colorMode === 'light' 

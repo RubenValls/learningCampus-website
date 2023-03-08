@@ -1,6 +1,6 @@
-import { action, makeObservable, observable} from "mobx";
+import { action, computed, makeObservable, observable} from "mobx";
 
-class Student{
+class User{
     
     username = 'username';
 
@@ -8,6 +8,7 @@ class Student{
         makeObservable(this, {
             username: observable,
             setUsername: action,
+            getUsername: computed
         });
     }
 
@@ -15,6 +16,10 @@ class Student{
         this.username = username;
     }
 
+    get getUsername(){
+        return this.username;
+    }
+
 }
 
-export const myStock = new Student();
+export const USERNAME = new User();

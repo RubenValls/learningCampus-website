@@ -1,8 +1,12 @@
 import { Box, Center, Heading, SimpleGrid, Text, Button, Image, Link, Divider } from '@chakra-ui/react';
 import { Card, CardHeader, CardBody, CardFooter } from '@chakra-ui/react'
 import React from 'react';
+import { USERNAME } from '../../../classes/student';
 
 const WelcomeComponent = () => {
+    
+    const user = USERNAME
+    
     return (
         <SimpleGrid minChildWidth='300px' spacing='0.5em' pt='1em' m='1em' id='welcomegrid'>
             <Box height='30em'>
@@ -10,7 +14,7 @@ const WelcomeComponent = () => {
                     <Card align='center' h='100%'>
                     <Image src='https://vlctesting.es/wp-content/uploads/2022/08/Open-Bootcamp.png' boxSize='150px'></Image>
                     <CardHeader>
-                        <Heading size='lg'> 👋 Hi UserName! Welcome to a new Learning Platform</Heading>
+                        <Heading size='lg'> 👋 Hi {user.getUsername}! Welcome to a new Learning Platform</Heading>
                     </CardHeader>
                     <CardBody>
                         <Text>Want to know more about us? Click the link below</Text>
